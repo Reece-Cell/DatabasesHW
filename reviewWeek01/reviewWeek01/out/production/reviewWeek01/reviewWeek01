@@ -1,0 +1,32 @@
+Week 01
+Programmer: <Reece Whitelaw>
+Partner: <Rakery Cheng>
+How much time did your spend reviewing your partern's code:  <30 minutes>
+
+The following is repeated for each item brought up at the review.
+
+Item Description: <Delete method not finished. The method does not have sufficient code to run and will automatically fail if executed.
+This code needs to take advantage of the written search function and call the remove method for arraylists. Small, easy fix.>
+Classification:   code Error
+Resolution:  YES
+
+
+Item Description: <The formatting of the 'lookup' function is pretty difficult to read due to how its formatted. Changing the formatting a bit would make it easier to read.>
+Classification:   suggestion
+Resolution:  if NO, why not?
+Because ultimately the difference in styling is just that; a different style than my own. Although I find it hard to read, Rakjang does not.
+
+Item Description: <Lots of erroneous uses of casting and of the command 'this.' for when making loops.
+Because there is only one "Instances" arraylist being used, such specificity isn't required and simply complicates or conflates your code. >
+Classification:   code Error | suggestion | comments
+Resolution:  YES | NO | if NO, why not?
+
+Item Description: <Many of the methods will end up throwing an exception unless a return statement is provided. Provide return statements of either Null or Zero (whatever fits the
+context) to prevent the code from displaying errors.>
+Classification:   code Error
+Resolution:  YES
+
+Item Description: <Many of the loops simply have i = 0 without actually incrementing its values through iterations. To fix this Rakjang should use
+either for loops or some other kind of iterator so get to indexes within the arraylist. His current iterators will not work.>
+Classification:   code Error
+Resolution:  YES
